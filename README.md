@@ -170,7 +170,7 @@ Per terminare il container:
 Voglio utilizzare un programma non installato sulla mia macchina; posso creare un container con un sistema operativo adatto ed installarlo al suo interno.  
 Esempio: SQL  
 
-~$ docker run -it --name ubuntu-sql ubuntu bash
+~$ docker run -it --name ubuntu-sql ubuntu bash  
 ~$~ apt update  
 ~$~ apt install -y sqlite3  
 ~$~ sqlite3 test.db  
